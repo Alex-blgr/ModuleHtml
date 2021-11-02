@@ -1,0 +1,240 @@
+/* début page index */
+#conteneurtotal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: azure;
+    align-items: center;
+    background: rgb(38,55,59);
+    background: linear-gradient(24deg, rgba(38,55,59,1) 8%, rgba(159,152,144,1) 51%, rgba(138,138,170,1) 78%, rgba(38,55,59,1) 90%, rgba(215,235,238,1) 100%);
+}
+
+#conteneur1{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    
+    padding: 15px;
+}
+
+#conteneur2{
+    
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+}
+#conteneur3{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#conteneur3 a:hover {
+    background: none;
+}
+
+a:hover {
+    color: black;
+    background: rgb(38,55,59);
+    background: linear-gradient(24deg, rgba(38,55,59,1) 8%, rgba(221,138,44,1) 51%, rgba(138,138,170,1) 76%, rgba(38,55,59,1) 100%, rgba(215,235,238,1) 100%);
+}
+div.elementmid{
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#bandeau {
+    width: 100%;
+    text-align: center;
+    background-color: aqua;
+    margin:auto;
+    height: 30px;
+}
+
+/* code page audio */
+figure {
+    margin: 0;
+}
+#conteneurtotal2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    background-color: azure;
+    align-items: center;
+}
+/* fin page index */
+
+/* début menu musique */
+#wrap{
+    width: 70%; 
+    margin: 0 auto;
+    z-index: 99; 
+    position: relative; 
+    height: 50px;
+}
+.navbar{
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+
+.navbar li {
+    height: auto;
+    width: 135.8px; 
+    float: left;  
+    text-align: center; 
+    list-style: none;  
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;  
+    padding: 0;
+    margin: 0;
+    background-color: #444444;
+}
+
+.navbar a{							
+    padding: 18px 0;  
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none; 
+    color: white; 
+    display: block;
+    border-radius: 5px;
+}
+
+
+.navbar li ul{
+    display: none;
+    height: auto;									
+    margin: 0; 
+    padding: 0; 
+}
+
+.navbar li:hover ul{
+    display: block;
+}
+
+
+
+
+
+/* fin menu musique */
+
+/* début footer */
+footer {
+    background: black;
+    position: relative;
+    width: 100%;
+    bottom:0;
+    height:90px;
+    color: white;
+}
+
+#conteneur_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+/* fin footer */
+
+/* début body */
+body {
+    margin: 0;
+}
+
+/* fin body */
+
+
+.element6 img {
+    margin-left: 5px;
+}
+
+.element_1 img {
+    width: 50px;
+}
+
+h1 {
+    text-align: center;    
+    font-family: 'Rock Salt', sans-serif;
+    margin-top: 0;
+}
+/* début bloc actus */
+
+.bloc_principal {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: rgb(38,55,59);
+    background: linear-gradient(24deg, rgba(38,55,59,1) 8%, rgba(221,138,44,1) 51%, rgba(138,138,170,1) 76%, rgba(38,55,59,1) 100%, rgba(215,235,238,1) 100%);
+    
+}
+
+.element_actus1 {
+    width: 20%;
+    
+}
+.element_principal {
+    width: 80%;
+    margin: 0 20px 0 20px;
+    
+}
+
+.element_actus1 h2  {
+    text-align: center;
+}
+/* fin bloc actus */
+
+div .imageaccueil1 {
+    background-size: cover;
+    width: 500px;
+    height: 293px;
+}
+
+div .imageaccueil3 {
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    align-self: flex-start;
+}
+
+div .imageaccueil4 {
+    background-size: cover;
+    width: 300px;
+    align-self: flex-end;
+}
+
+div .imageaccueil5 {
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    align-self: flex-start;
+}
+.blocimage {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blocimage2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div .zonetext {
+    width: 300px
+}
+/* début menu gauche */
+
+
+/* fin menu gauche */

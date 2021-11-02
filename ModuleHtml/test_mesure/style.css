@@ -1,0 +1,29 @@
+p, 
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  transform: rotate(180deg);
+  flex-direction: row-reverse;
+}
+
+.block {
+  display: block;
+  width: 45px;
+  margin: auto;
+  transform: rotate(45deg);
+}      
+
+body {
+    width: 75%;
+}
